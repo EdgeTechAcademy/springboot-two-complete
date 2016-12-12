@@ -26,10 +26,14 @@ public class CustomerLoader implements ApplicationListener<ContextRefreshedEvent
 	@Override
 	public void onApplicationEvent( ContextRefreshedEvent event ) {
 
-		createCustomer( "Microsoft",	"Seattle" );
-		createCustomer( "Oracle", 		"Austin" );
-		createCustomer( "IBM",		 	"Roanoak" );
-		createCustomer( "Amazon", 		"Palo Alta" );
+		createCustomer( "Microsoft",		"Seattle" );
+		createCustomer( "Oracle", 			"Austin" );
+		createCustomer( "IBM",		 		"Roanoak" );
+		createCustomer( "Amazon", 			"Palo Alta" );
+		createCustomer( "Best Buy", 		"Mansfield" );
+		createCustomer( "Neiman Marcus", 	"Dallas" );
+		createCustomer( "Fry's", 			"Coppell" );
+		createCustomer( "Torchy's Tacos", 	"Arlington" );
 	}
 
 	public void createCustomer( String customerId, String location ) {
