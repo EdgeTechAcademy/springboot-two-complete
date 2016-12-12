@@ -16,6 +16,9 @@
                 <th>Id</th>
                 <th>Customer Id</th>
                 <th>Location</th>
+                <th>View</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </tr>
             <tr th:each="customer : ${customers}">
                 <td th:text="${customer.id}"><a href="/customer/${customer.id}">Id</a></td>
