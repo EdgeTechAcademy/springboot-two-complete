@@ -17,6 +17,14 @@
     1.  bootstrap - does great things for managing your web page without needing to know which browser or platform you are running on
     2.  jQuery	- This is what the big kids are using on their web site to get data to where they want it.
 
+#####		The Complete project adds in the Customer files
+11.  **CustomerLoader.java**		Add data to the database so we have something to see
+12.  **CustomerController.java**	provides the mapping of the URL in the browser address bar to an actual file
+13.  **Customer.java**				The Entity definition for the Product table
+14.  **CustomerRepository.java**	extends the CrudRepository and that is it
+15.  **CustomerService.java**		Interface: lists our available services
+16.  **CustomerServiceImpl.java**	Implements the service methods
+
 ####		Our application can be found at http://localhost:8080
 
 | Page              | URL                                 	| Method |
