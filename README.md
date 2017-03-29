@@ -26,6 +26,7 @@
 16.  **CustomerServiceImpl.java**	Implements the service methods
 
 ####		Our application can be found at http://localhost:8080
+####		along with these URLs are similar ones using /customer/...
 
 | Page              | URL                                 	| Method |
 |-------------------|-------------------------------------	|--------|
