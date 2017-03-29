@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class ProductController {
 
 	//	Use a service for when things get complicated.
-	//	more so than just doing a findAll or delete
+	//	more than just doing a findAll or delete
 	//	the project has a great great example I think
 	//	spring-boot-sample-data-jpa
 	//	spring-boot/spring-boot-samples/spring-boot-sample-data-jpa/
-	//		is is in the spring-boot-master zip file in the download folder!!!!!
+	//		it is in the spring-boot-master zip file in the download folder!!!!!
 	//			this has been copied to the Projects/spring-boot-master folder
 	//		I need to review this !!!
 
@@ -34,7 +34,7 @@ public class ProductController {
 	@RequestMapping(value = "/products", method = RequestMethod.GET)
 	public String list(Model model){
 		model.addAttribute("products", productService.listAllProducts());
-		System.out.println("Returning products:");
+		System.out.println("Returning Products:");
 		return "products";
 	}
 
